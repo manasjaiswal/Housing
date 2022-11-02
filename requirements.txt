@@ -1,6 +1,6 @@
-Flask
-<<<<<<< HEAD
+flask
 gunicorn
-=======
-gunicorn
->>>>>>> 3322812f78db8cdf52af0f79acab22d9b87c5026
+pandas
+numpy
+sklearn
+

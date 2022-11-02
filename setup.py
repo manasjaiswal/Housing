@@ -3,7 +3,7 @@ from typing import List
 
 def get_requirements_list()->List[str]:
     with open('requirements.txt') as req_file:
-        return req_file.readlines().remove("-e .)
+        return req_file.readlines()
 
 PROJECT_NAME="housing-predictor"
 AUTHOR="ManasJaiswal"

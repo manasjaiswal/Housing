@@ -1,0 +1,19 @@
+columns:
+  households: float64
+  housing_median_age: float64
+  latitude: float64
+  longitude: float64
+  median_house_value: float64
+  median_income: float64
+  ocean_proximity: object
+  population: float64
+  total_bedrooms: float64
+  total_rooms: float64
+domain_value:
+  ocean_proximity:
+  - <1H OCEAN
+  - INLAND
+  - ISLAND
+  - NEAR BAY
+  - NEAR OCEAN
+target_variable: median_house_value
